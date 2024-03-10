@@ -7,7 +7,7 @@ import { Input } from "@/components/Input";
 
 import { Title } from "@/components/Title";
 import loginSchema from "@/schemas/loginSchema";
-import { Logo, View } from "./styles";
+import { KeyboardAvoidingView, Logo, View } from "./styles";
 import { Button } from "@/components/Button";
 import { LoginForm } from "@/types/forms";
 import * as authService from "@/services/authService";
@@ -29,7 +29,7 @@ export const Login: React.FC<Omit<NativeStackHeaderProps, "options">> = ({ navig
   } = useForm<LoginForm>({
     resolver: yupResolver<LoginForm>(loginSchema),
     defaultValues: {
-      email: 'ridam@gmail.com',
+      email: 'digpoint@gmail.com',
       password: '123456'
     },
     mode: "all"
@@ -59,7 +59,8 @@ export const Login: React.FC<Omit<NativeStackHeaderProps, "options">> = ({ navig
   };
 
   return (
-    <SafeAreaView>
+    <KeyboardAvoidingView>
+      <SafeAreaView>
       <View>
         <Logo source={logo} />
 
@@ -96,5 +97,6 @@ export const Login: React.FC<Omit<NativeStackHeaderProps, "options">> = ({ navig
         />
       </View>
     </SafeAreaView>
+    </KeyboardAvoidingView>
   );
 };

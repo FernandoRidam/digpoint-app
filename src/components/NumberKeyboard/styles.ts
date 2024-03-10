@@ -12,7 +12,7 @@ export const CodeView = styled.View`
   align-items: center;
   justify-content: center;
   height: 72px;
-  padding: 0 56px;
+  padding: 10px 56px;
   margin-bottom: 32px;
   border: 4px solid ${({ theme }) => theme.colors.primary_light};
   border-radius: 16px;
@@ -48,9 +48,8 @@ export const Text = styled.Text`
 export const CodeText = styled.Text`
   font-size: 56px;
   font-weight: 700;
-  width: 33px;
-  height: 100%;
   font-family: 'Roboto_700Bold';
   color: ${({ theme }) => theme.colors.primary_light};
   margin: 0 16px;
+  line-height: 56px;
 `;

@@ -1,4 +1,11 @@
+import { Platform } from "react-native";
 import styled from "styled-components/native";
+
+export const KeyboardAvoidingView = styled.KeyboardAvoidingView.attrs({
+  behavior: Platform.OS === 'ios' ? 'padding' : 'height'
+})`
+  flex: 1;
+`;
 
 export const View = styled.View`
   flex: 1;
