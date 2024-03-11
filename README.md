@@ -12,21 +12,21 @@ Aplicativo de consulta e dicas de filmes. Suas principais funcionalidades são:
 
 ### Screens
 
-<img src="/screens/login_default.png" width="200">
+| <img src="/screens/login_default.png" width="200">
 | <img src="/screens/login_error.png" width="200">
 | <img src="/screens/login_hide_password.png" width="200">
 | <img src="/screens/login_show_password.png" width="200">
 
 <br />
 
-<img src="/screens/code_default.png" width="200">
+| <img src="/screens/code_default.png" width="200">
 | <img src="/screens/code_informed.png" width="200">
 | <img src="/screens/code_after_register_not_found.png" width="200">
 | <img src="/screens/code_after_register_successfully.png" width="200">
 
 <br />
 
-<img src="/screens/confirm_exit_default.png" width="200">
+| <img src="/screens/confirm_exit_default.png" width="200">
 | <img src="/screens/confirm_exit_error.png" width="200">
 | <img src="/screens/confirm_exit_hide_password.png" width="200">
 | <img src="/screens/confirm_exit_show_password.png" width="200">
