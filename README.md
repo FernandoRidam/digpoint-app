@@ -53,6 +53,7 @@ Aplicativo de consulta e dicas de filmes. Suas principais funcionalidades são:
 - [axios](https://github.com/axios/axios) para o consumo da api.
 - [react navigation v6](https://reactnavigation.org/) para gerenciamento da navegação entre telas.
 - [Phosphor Icons](https://phosphoricons.com/) Uma família de ícones flexível para interfaces.
+- [React Hook Form, yup, @hookform/resolvers/yup](https://react-hook-form.com/) para controle e validação de formulários.
 
 ### Padrões
 
