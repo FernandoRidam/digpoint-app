@@ -10,7 +10,6 @@ export const ModalView = styled.View`
 
 export const SafeAreaView = styled.SafeAreaView`
   width: 100%;
-  /* height: 322px; */
   border-radius: 24px 24px 0px 0px;
   background-color: ${({ theme }) => theme.colors.background};
   box-shadow: 0px 0px 8px ${({ theme }) => theme.colors.primary};

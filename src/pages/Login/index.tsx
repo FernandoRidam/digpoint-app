@@ -29,8 +29,8 @@ export const Login: React.FC<Omit<NativeStackHeaderProps, "options">> = ({ navig
   } = useForm<LoginForm>({
     resolver: yupResolver<LoginForm>(loginSchema),
     defaultValues: {
-      email: 'digpoint@gmail.com',
-      password: '123456'
+      email: '',
+      password: ''
     },
     mode: "all"
   });
@@ -68,7 +68,7 @@ export const Login: React.FC<Omit<NativeStackHeaderProps, "options">> = ({ navig
           marginTop={56}
           marginBottom={48}
         >
-          LOGIN ADMINISTRADOR
+          ADMIN LOGIN
         </Title>
 
         <Input

@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components/native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { IconContext, SignOut } from 'phosphor-react-native';
+import { IconContext } from 'phosphor-react-native';
 import { RootSiblingParent } from 'react-native-root-siblings';
 
 import { StateProvider, useStore } from "@/store";
@@ -25,7 +25,6 @@ import {
   Roboto_900Black_Italic,
 } from '@expo-google-fonts/roboto';
 import { Code } from '@/pages/Code';
-import { TouchableOpacity } from 'react-native';
 import { LogoutButton } from '@/components/LogoutButton';
 import { Loading } from '@/components/Loading';
 import { SuccessModal } from '@/components/SuccessModal';

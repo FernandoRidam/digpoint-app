@@ -16,8 +16,6 @@ export const PasswordModal = () => {
   const {
     user,
     confirmExit,
-    loadingStart,
-    loadingEnd,
     logout,
   } = useStore();
 
@@ -27,7 +25,7 @@ export const PasswordModal = () => {
   } = useForm<ConfirmExitForm>({
     resolver: yupResolver<ConfirmExitForm>(confirmExitSchema),
     defaultValues: {
-      password: '123456'
+      password: ''
     },
     mode: "all"
   });

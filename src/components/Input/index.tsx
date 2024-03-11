@@ -1,6 +1,6 @@
 import { TextInputProps } from "react-native";
 import { Error, View, Label, InputView, TextInput, Action } from "./styles";
-import { Control, useController, UseControllerProps } from "react-hook-form";
+import { Control, useController } from "react-hook-form";
 import { useState } from "react";
 import theme from "@/config/theme";
 import { Eye, EyeSlash } from "phosphor-react-native";

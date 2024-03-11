@@ -1,7 +1,7 @@
 import { Backspace } from "phosphor-react-native";
 import { Button, Text, Column, Row, CodeView, CodeText } from "./styles";
 import theme from "@/config/theme";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { Control, useController } from "react-hook-form";
 
 const numbers = [

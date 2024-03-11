@@ -1,4 +1,3 @@
-import { User } from "@/types/user";
 import { useMemo, useState } from "react";
 
 export function useLoading() {
