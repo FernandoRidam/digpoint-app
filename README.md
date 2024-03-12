@@ -2,13 +2,11 @@
 
 # DigPoint
 
-Aplicativo de consulta e dicas de filmes. Suas principais funcionalidades são:
+Aplicativo de controle de jornada. Suas principais funcionalidades são:
 
-1. Listar filmes e séries lançamentos.
-2. Busca de filmes e séries por titulo.
-3. Listar filmes e séries por genêro.
-4. Exibe detalhes dos filmes e séries, com trailers.
-5. Com duas opções de idiomas. Português do Brasil e Inglês.
+1. Login Adminstrador.
+2. Logout com senha.
+3. Registrar ponto por código do funcionário.
 
 ### Screens
 
