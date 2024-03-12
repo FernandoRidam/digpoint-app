@@ -4,7 +4,7 @@
 
 Aplicativo de controle de jornada. Suas principais funcionalidades são:
 
-1. Login Adminstrador.
+1. Login Administrador.
 2. Logout com senha.
 3. Registrar ponto por código do funcionário.
 
@@ -55,11 +55,11 @@ Aplicativo de controle de jornada. Suas principais funcionalidades são:
 
 ### Padrões
 
-#### Componentização de codigo reutilizavel
+#### Componentização de código reutilizável
 
-Componentes foram criados para evitar a repetição de codigo. Os componentes são reutilizaveis e não contem regras de negocio, podendo ser utilizados nas variadas telas.
+Componentes foram criados para evitar a repetição de código. Os componentes são reutilizáveis e não contem regras de negocio, podendo ser utilizados nas variadas telas.
 
 #### Separação de responsabilidades
 
 - Uma camada de serviço foi criada e atua de forma transparente para as camadas superiores, seu funcionamento nao depende das regras superiores e vice e versa.
-- As telas se preocupam em obter inputs dos usuarios e mostrar resultados. Dessa forma, adicionar uma nova tela não é um trabalho tão arduo.
+- As telas se preocupam em obter inputs dos usuários e mostrar resultados. Dessa forma, adicionar uma nova tela não é um trabalho tão árduo.
